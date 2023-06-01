@@ -27,7 +27,7 @@
 Enquetes Simplificadas
 Este projeto tem como objetivo implementar um sistema de elaboração de enquetes simplificadas, onde um usuário pode criar enquetes e associar perguntas e respostas a elas. A API é desenvolvida em NestJS (TypeScript) utilizando o TypeORM, seguindo o conceito REST, e hospedada como Cloud Functions no Google Cloud Platform (GCP). A documentação da API é gerada automaticamente usando o Swagger.
 
-## <h1> <Instalação>
+## <h1>  Instalação  <h1>
 
 ```bash
 $ npm install
@@ -64,5 +64,6 @@ npm run typeorm migration:run
 
 npm run typeorm migration:revert
 
-<h1> Documentação da API  SWAGGER<h1>
+<h1> Documentação da API  SWAGGER <h1>
+  
 A documentação da API pode ser acessada em http://localhost:3333/api/.
