@@ -2,6 +2,9 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
 import { UserModule } from './user/user.module';
+import { QuestionModule } from './question/question.module';
+import { AnswerModule } from './answer/answer.module';
+import { AskinsModule } from './askins/askins.module';
 
 @Module({
   imports: [
@@ -20,6 +23,9 @@ import { UserModule } from './user/user.module';
       migrationsRun: true,
     }),
     UserModule,
+    QuestionModule,
+    AnswerModule,
+    AskinsModule,
   ],
 
   controllers: [],
