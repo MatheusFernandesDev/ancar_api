@@ -13,7 +13,9 @@ import { Pagination } from 'nestjs-typeorm-paginate';
 import AnswerEntity from './interface/answer.entity';
 import { CreateAnswerDto } from './dtos/createAnswerDto';
 import { UpdateAnswerDto } from './dtos/updateAnswerDto';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('answers')
 @Controller('question')
 export class AnswerController {
   constructor(private readonly answerService: AnswerService) {}

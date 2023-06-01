@@ -15,7 +15,9 @@ import { QuestionService } from './question.service';
 import { Pagination } from 'nestjs-typeorm-paginate';
 import QuestionEntity from './interface/question.entity';
 import AskinsEntity from 'src/askins/interface/askins.entity';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('questions')
 @Controller('question')
 export class QuestionController {
   constructor(private readonly questionService: QuestionService) {}

@@ -14,7 +14,9 @@ import { UserService } from './user.service';
 import { UpdateUserDto } from './dtos/updateUser.dto';
 import UserEntity from './interface/user.entity';
 import { Pagination } from 'nestjs-typeorm-paginate';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('users')
 @Controller('user')
 export class UserController {
   constructor(private readonly userService: UserService) {}
