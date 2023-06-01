@@ -25,15 +25,21 @@
 ## <h1> DESCRIÇÃO <h1>
 
 Enquetes Simplificadas
-Este projeto tem como objetivo implementar um sistema de elaboração de enquetes simplificadas, onde um usuário pode criar enquetes e associar perguntas e respostas a elas. A API é desenvolvida em NestJS (TypeScript) utilizando o TypeORM, seguindo o conceito REST, e hospedada como Cloud Functions no Google Cloud Platform (GCP). A documentação da API é gerada automaticamente usando o Swagger.[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Este projeto tem como objetivo implementar um sistema de elaboração de enquetes simplificadas, onde um usuário pode criar enquetes e associar perguntas e respostas a elas. A API é desenvolvida em NestJS (TypeScript) utilizando o TypeORM, seguindo o conceito REST, e hospedada como Cloud Functions no Google Cloud Platform (GCP). A documentação da API é gerada automaticamente usando o Swagger.
 
-## Installation
+## <h1> <Instalação>
 
 ```bash
 $ npm install
 ```
+  
+<h1> Pré-requisitos <h1>
+  
+Node.js (versão atual)
+PostgreSQL (versão atual)
+Conta no Google Cloud Platform (GCP)
 
-## Running the app
+## <Iniciando o Projeto>
 
 ```bash
 # development
@@ -46,20 +52,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-# Cria uma nova migração
+# <h1> Cria uma nova migração <h1>
 
 npm run typeorm migration:create -n CreateUserTable
 
@@ -71,16 +64,5 @@ npm run typeorm migration:run
 
 npm run typeorm migration:revert
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+<h1> Documentação da API  SWAGGER<h1>
+A documentação da API pode ser acessada em http://localhost:3333/api/.
