@@ -39,7 +39,7 @@ Node.js (versão atual)
 PostgreSQL (versão atual)
 Conta no Google Cloud Platform (GCP)
 
-## <Iniciando o Projeto>
+## <h1> Iniciando o Projeto<h1>
 
 ```bash
 # development
